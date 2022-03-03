@@ -18,6 +18,8 @@ class Message {
 	String msg = "hi";
 	
 	private int messageId;
+	
+	private int errorCode;
 
 	public String getMsg() {
 		return msg;
@@ -33,6 +35,14 @@ class Message {
 
 	public void setMessageId(int messageId) {
 		this.messageId = messageId;
+	}
+
+	public int getErrorCode() {
+		return errorCode;
+	}
+
+	public void setErrorCode(int errorCode) {
+		this.errorCode = errorCode;
 	}
 	
 	
