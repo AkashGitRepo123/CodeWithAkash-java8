@@ -3,8 +3,8 @@ package com.methodreference;
 public class ConstructorReference {
 	public static void main(String[] args) {
 
-		/*Messageable hello =*/ Message::getMsg;
-		// hello.getMessage("Hello");
+		Messageable hello = new Message()::getMsg;
+		hello.getMessage();
 	}
 }
 
@@ -15,7 +15,7 @@ interface Messageable {
 
 class Message {
 
-	String msg;
+	String msg = "hi";
 
 	public String getMsg() {
 		return msg;
