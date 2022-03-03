@@ -4,6 +4,7 @@ import java.util.LinkedList;
 import java.util.Random;
 import java.util.function.Function;
 
+// this is another comments that should not affect due to git pull.
 public class MethodReferenceExample {
 
 	public static void main(String ar[]) {

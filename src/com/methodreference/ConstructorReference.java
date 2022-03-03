@@ -1,6 +1,7 @@
 package com.methodreference;
 
 public class ConstructorReference {
+	//This is main method which should not get affected due to git pull.
 	public static void main(String[] args) {
 
 		Messageable hello = new Message()::getMsg;
@@ -16,7 +17,9 @@ interface Messageable {
 class Message {
 
 
-	String msg = "hi";
+	String msg = "hi there!";
+	
+	// this is my own comment to check the msg conflicts.
 
 	private String messageFrom;
 
