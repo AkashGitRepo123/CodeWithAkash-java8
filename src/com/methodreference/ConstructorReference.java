@@ -18,8 +18,11 @@ class Message {
 
 
 	String msg = "hi there!";
+<<<<<<< HEAD
 	
 	// this is my own comment to check the msg conflicts.
+=======
+>>>>>>> 55d60195aaa81b157ac6ea44538b1bd25593b96c
 
 	private String messageFrom;
 
