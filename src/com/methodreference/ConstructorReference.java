@@ -31,6 +31,7 @@ class Message {
 
 	private String messageTo;
 
+
 	public String getMsg() {
 		return msg;
 	}
