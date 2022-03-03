@@ -15,7 +15,7 @@ interface Messageable {
 
 class Message {
 
-	String msg = "hi";
+	String msg = "hi there!";
 	
 	private int messageId;
 	
