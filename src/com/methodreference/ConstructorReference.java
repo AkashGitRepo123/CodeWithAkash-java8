@@ -20,6 +20,17 @@ class Message {
 	private int messageId;
 	
 	private int errorCode;
+	
+	public String getMessageTo() {
+		return messageTo;
+	}
+
+	public void setMessageTo(String messageTo) {
+		this.messageTo = messageTo;
+	}
+
+	private String messageTo;
+
 
 	public String getMsg() {
 		return msg;
