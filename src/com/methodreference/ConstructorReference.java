@@ -15,11 +15,25 @@ interface Messageable {
 
 class Message {
 
+
 	String msg = "hi there!";
-	
+
+	private String messageFrom;
+
 	private int messageId;
 	
 	private int errorCode;
+	
+	public String getMessageTo() {
+		return messageTo;
+	}
+
+	public void setMessageTo(String messageTo) {
+		this.messageTo = messageTo;
+	}
+
+	private String messageTo;
+
 
 	public String getMsg() {
 		return msg;
@@ -44,8 +58,12 @@ class Message {
 	public void setErrorCode(int errorCode) {
 		this.errorCode = errorCode;
 	}
-	
-	
+	public String getMessageFrom() {
+		return messageFrom;
+	}
+	public void setMessageFrom(String messageFrom) {
+		this.messageFrom = messageFrom;
+	}
 
 	/*
 	 * String getMsg( String msg ){ System.out.print(""); return ""; }
