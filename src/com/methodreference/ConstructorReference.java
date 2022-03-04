@@ -21,7 +21,6 @@ class Message {
 	
 	// this is my own comment to check the msg conflicts.
 
-
 	private String messageFrom;
 
 	private int messageId;
