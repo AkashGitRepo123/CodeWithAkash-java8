@@ -17,7 +17,6 @@ interface Messageable {
 class Message {
 
 	// Akash 1
-	// Akash 2
 	String msg = "hi there!";	
 	// this is my own comment to check the msg conflicts.
 
