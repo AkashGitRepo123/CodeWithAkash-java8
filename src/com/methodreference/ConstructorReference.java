@@ -17,10 +17,12 @@ interface Messageable {
 class Message {
 
 	// Akash 1
-
-	String msg = "hi there!";
-	
+	String msg = "hi there!";	
 	// this is my own comment to check the msg conflicts.
+
+    //satish 1
+	//satish 2
+	//satish 3
 
 	private String messageFrom;
 
